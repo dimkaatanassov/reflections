@@ -6,3 +6,9 @@ How is the staging area different from the working directory and the repository?
 
 Staging area allows to create a scetch of what you want to commit, but you can also undo that so it's not like comitting (which you can't take back).
 And it's different than the working directory because it doesn't have to contain all the files in it.
+
+How can you use the staging area to make sure you have one commit per logical change?
+You can use the stage to save intermediate changes, or changes to each file as you go, and then only commit once all changes related to the same logical change are completed.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+If I want to create several different versions or a test version with some added features while keeping the master version intact.
