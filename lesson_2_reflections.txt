@@ -1,0 +1,8 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+Git creates an empty repository in the directory where I run the command, the files in that directory are not yet tracked.
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+Staging area allows to create a scetch of what you want to commit, but you can also undo that so it's not like comitting (which you can't take back).
+And it's different than the working directory because it doesn't have to contain all the files in it.
