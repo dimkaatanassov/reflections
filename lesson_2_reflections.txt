@@ -16,3 +16,6 @@ If I want to create several different versions or a test version with some added
 
 How do the diagrams help you visualize the branch structure?
 By helping you see the structure and see which commit has which parent commit, and which commit can be reached from where.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+We unify the two branches and the newest commit has all changes from both of them. We represent them as merging into the graph because now we have only 1 branch with all the changes instead of 2.
