@@ -18,3 +18,10 @@ What is the benefit of having a copy of the last known state of the remote store
 
 If you get offline and would like to know what the last version was.
 Also allows you to merge that with your current version, and then upload the changes.
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+We could each work on their local machine and upload changes onto a shared drive somewhere
+We'd have to talk to each other before uploading each change so as to make sure we are not overriding things.
+It would be harder to keep track of versions and to merge cnagnes, we'd have to simply divide our projects
+into separate and independent chunks so as to not get in each other's way
+It would be easier to navigate the system though, since Git and GitHub are quite complicated to learn and use.
