@@ -25,3 +25,7 @@ We'd have to talk to each other before uploading each change so as to make sure 
 It would be harder to keep track of versions and to merge cnagnes, we'd have to simply divide our projects
 into separate and independent chunks so as to not get in each other's way
 It would be easier to navigate the system though, since Git and GitHub are quite complicated to learn and use.
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+You'd want to do that if you would like to allow your collaborators to first review the changes you have made before merging into master. The benefits of this is allowing for someone to review your changes before changing the master.
+The benefits of directly merging into master is that it's simplear and there is less room for conflicts (e.g., if both you and a collaborator create a separate branch and then a pull request).
